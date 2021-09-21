@@ -1,0 +1,12 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="FORMATTER_TAGS_ENABLED" value="true" />
+    <option name="FORMATTER_ON_TAG" value="---" />
+    <option name="FORMATTER_OFF_TAG" value="---" />
+    <option name="DO_NOT_FORMAT">
+      <list>
+        <fileSet type="namedScope" name="Unnamed" pattern="*.md||file[website]:docs//*" />
+      </list>
+    </option>
+  </code_scheme>
+</component>

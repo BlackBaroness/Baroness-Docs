@@ -1,18 +1,18 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Baroness\'Docs',
+  title: 'Baroness` Docs',
   tagline: '',
   url: 'https://baronessdev.ru',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  organizationName: 'BaronessDev', // Usually your GitHub org/user name.
-  projectName: 'BaronessDev', // Usually your repo name.
+  organizationName: 'Baroness` Dev', // Usually your GitHub org/user name.
+  projectName: 'Baroness` Dev', // Usually your repo name.
 
   presets: [
     [
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Baroness\'Docs',
+        title: 'Baroness` Docs',
         logo: {
           alt: 'Logo',
           src: 'img/logo.png',
@@ -51,7 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} BaronessDev. <br> Сделано с ❤ <a href="https://vk.com/xiliken" target="_blank">Евгений Базоров</a>`,
+        copyright: 'Copyright © 2020-2021 Baroness` Dev. <br> Сделано с ❤ <a href="https://vk.com/xiliken" target="_blank">Евгений Базоров</a>',
       },
       prism: {
         theme: lightCodeTheme,
