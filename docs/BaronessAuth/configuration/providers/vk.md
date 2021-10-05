@@ -32,10 +32,10 @@ YAML часто конфликтует со смайликами, поэтому
 
 <center>
 
-![Image](img/bauth-v225-image1.png)  
-![Image](img/bauth-v225-image2.png)  
-![Image](img/bauth-v225-image3.png)  
-![Image](img/bauth-v225-image4.png)  
+![Image](../../../img/BaronessAuth/bauth-v225-image1.png)  
+![Image](../../../img/BaronessAuth/bauth-v225-image2.png)  
+![Image](../../../img/BaronessAuth/bauth-v225-image3.png)  
+![Image](../../../img/BaronessAuth/bauth-v225-image4.png)  
 
 </center>
 
