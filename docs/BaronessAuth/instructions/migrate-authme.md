@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Миграция с AuthMe
 ---
 
-Для миграции с AuthMe используется субкоманда [/auth migrate](https://docs.baronessdev.ru/guide/admincommands).
+Для миграции с AuthMe используется субкоманда [/auth migrate](https://docs.baronessdev.ru/BaronessAuth/configuration/adminCommands/migrate).
 
 **Перед миграцией, проверьте следующее:**
 
