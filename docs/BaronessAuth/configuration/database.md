@@ -1,16 +1,12 @@
 ---
-sidebar_position: 1
-title: База данных
+sidebar_position: 2
+title: Доступные базы данных
 ---
 
 ```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
-
-BaronessAuth позволяет вам выбрать базу данных и легко настроить подключение к ней.
-
-Подход к каждой базе данных у нас индивидуальный, с учётом особенностей каждой из них. Это позволяет выжать максимум производительности.
 
 Все базы делятся на 2 типа:
 - Локальные. Не требуют настройки, сохраняются в файл.
@@ -71,44 +67,3 @@ values={[
 </Tabs>
 ```
 :::
-
-```yaml title="data/database.yml"
-# Название выбранной базы данных.
-database: HSQLDB
-
-connection:
-  # Адрес (IP).
-  address: 'localhost'
-  
-  # Указывать ли порт при подключении?
-  specify-port: false
-  
-  # Порт.
-  port: 3306
-  
-  # Имя базы данных.
-  db-name: 'db'
-  
-  # Пользователь.
-  user: 'root'
-  
-  # Пароль.
-  password: 'password'
-  
-  # Аргументы подключения.
-  # Не трогайте, если не разбираетесь.
-  args:
-    - 'serverTimezone=Europe/Moscow'
-    - 'autoReconnect=true'
-    - 'useSSL=false'
-
-data:
-  # Название таблицы с данными.
-  table: 'ba_users'
-
-# Должен ли BaronessAuth выключать сервер, если подключение не удалось?
-shutdown-on-fail: true
-
-# Должен ли BaronessAuth сбрасывать сессии при подключении?
-reset-sessions: true
-```

@@ -51,7 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
       footer: {
         style: 'dark',
         links: [],
-        copyright: 'Copyright © 2020-2021 Baroness` Dev. <br> Сделано с ❤ <a href="https://vk.com/xiliken" target="_blank">Евгений Базоров</a>',
+        copyright: 'Copyright © 2020-2022 Baroness` Dev. <br> Сделано с ❤ <a href="https://vk.com/xiliken" target="_blank">Евгений Базоров</a>',
       },
       prism: {
         theme: lightCodeTheme,
