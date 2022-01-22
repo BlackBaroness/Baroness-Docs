@@ -8,6 +8,23 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
 
+## v0.1.1-beta
+
+<Tabs
+defaultValue="fixed"
+values={[
+{label: "Исправлено", value: "fixed"}
+]}>
+
+
+<TabItem value="fixed">
+
+- Сообщения, отправляемые плагином, могли быть пустыми.
+
+</TabItem>
+</Tabs>
+
+
 ## v0.1.0-beta
 
 <Tabs

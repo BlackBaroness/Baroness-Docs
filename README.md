@@ -19,7 +19,6 @@ yarn install
 yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest 
 ```
 
-
 ### Local Development
 ```console
 yarn start
@@ -28,4 +27,9 @@ yarn start
 ### Build
 ```console
 yarn build
+```
+
+### Cleanup
+```console
+yarn clear
 ```
