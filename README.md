@@ -4,7 +4,7 @@ https://docs.baronessdev.ru/
 
 ### Setup
 
-Needed packages:
+Required packages:
 - `nodejs`
 - `npm`
 

@@ -8,6 +8,38 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
 
+## v0.1.2-beta
+
+<Tabs
+defaultValue="added"
+values={[
+{label: "Добавлено", value: "added"},
+{label: "Изменено", value: "changed"},
+{label: "Исправлено", value: "fixed"}
+]}>
+
+<TabItem value="added">
+
+- Команда `unregister`.
+- Новая система кэша базы данных с новыми, более гибкими настройками.
+
+</TabItem>
+<TabItem value="changed">
+
+- Обновлён драйвер PostgreSQL.
+- Обновлены многие библиотеки, в том числе VK API, Telegram API, GeoIP, а также множество вспомогательных.
+- Теперь `/auth developer --clear-cache` очищает весь кэш, а не только неиспользуемый.
+
+</TabItem>
+<TabItem value="fixed">
+
+- Команды могли не блокироваться у неавторизованных игроков.
+- `AuthPlayerLoginEvent` не вызывался (также исправляет работу скриптов).
+- Tab-Complete у `changepassword` работал некорректно.
+
+</TabItem>
+</Tabs>
+
 ## v0.1.1-beta
 
 <Tabs
