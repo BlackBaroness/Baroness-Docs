@@ -10,7 +10,7 @@ Required packages:
 
 Installing yarn (may require sudo):
 ```console
-npm install --global yarn
+npm install --location=global yarn
 yarn install
 ```
 
