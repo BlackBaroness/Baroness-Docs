@@ -11,10 +11,8 @@ import TabItem from '@theme/TabItem';
 ## v0.1.3-beta
 
 <Tabs
-defaultValue="added"
+defaultValue="fixed"
 values={[
-{label: "Добавлено", value: "added"},
-{label: "Изменено", value: "changed"},
 {label: "Исправлено", value: "fixed"}
 ]}>
 
