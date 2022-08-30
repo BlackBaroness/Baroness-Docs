@@ -10,13 +10,13 @@ Required packages:
 
 Installing yarn (may require sudo):
 ```console
-npm install --location=global yarn
+npm install --global yarn
 yarn install
 ```
 
 ### Updating Docusaurus
 ```console
-yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest 
+yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
 ```
 
 ### Local Development
