@@ -8,6 +8,22 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
 
+## v0.1.3-beta
+
+<Tabs
+defaultValue="added"
+values={[
+{label: "Добавлено", value: "added"},
+{label: "Изменено", value: "changed"},
+{label: "Исправлено", value: "fixed"}
+]}>
+
+<TabItem value="fixed">
+
+- Отправка сообщений игроку на старых версиях.
+
+</TabItem>
+
 ## v0.1.2-beta
 
 <Tabs
